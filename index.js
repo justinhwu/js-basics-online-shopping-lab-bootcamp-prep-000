@@ -73,7 +73,9 @@ function placeOrder(cardNumber) {
   
   if(cardNumber){
   
-  return(`Your total cost is $${total()}, which will be charged to the card ${cardNumber}.`)
+  (`Your total cost is $${total()}, which will be charged to the card ${cardNumber}.`)
+  cart = []
+  return cart
   
   }
   
